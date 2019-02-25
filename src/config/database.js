@@ -4,7 +4,7 @@ module.exports = {
   port: 5433,
   username: 'docker',
   password: 'docker',
-  database: 'gonodemodulo2',
+  database: 'gobarber',
   operatorsAliases: false,
   define: {
     timestamps: true,
