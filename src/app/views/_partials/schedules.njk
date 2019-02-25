@@ -1,0 +1,9 @@
+{% for schedule in schedules %}
+  <li class="provider">
+    <div>
+      <img src="/files/{{ schedule.user.avatar }}" />
+      <strong>{{ schedule.user.name }}</strong>
+    </div>
+    <a>{{ schedule.horary }}</a>
+  </li>
+{% endfor %}
