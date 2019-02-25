@@ -1,3 +1,4 @@
 node_modules/
-tmp/uploads/*
-tmp/sessions/*
+tmp/
+!tmp/uploads/.keep-me
+!tmp/sessions/.keep-me
